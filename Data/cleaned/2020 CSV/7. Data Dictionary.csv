@@ -1,0 +1,13 @@
+Original Column,Clean Name,Description,Data Type,Example,Table
+Response ID,response_id,Unique survey response identifier,Text,R001,Dim_Demographics_Employment
+What year were you born?,birth_year,Respondent's birth year,Integer,1995,Dim_Demographics_Employment
+What is your gender?,gender,Respondent's gender,Text,Male,Dim_Demographics_Employment
+Which of the following best describes your industry?,industry,Industry sector,Text,Information Technology,Dim_Demographics_Employment
+Which of the following best describes your industry? (Detailed),industry_detail,Detailed industry category,Text,Software Development,Dim_Demographics_Employment
+Which of the following best describes your current occupation?,occupation,Current occupation,Text,Software Engineer,Dim_Demographics_Employment
+Which of the following best describes your current occupation? (Detailed),occupation_detail,Detailed occupation,Text,Full Stack Developer,Dim_Demographics_Employment
+How many people are currently employed by your organisation?,company_size,Organization size,Text,100–499,Dim_Demographics_Employment
+Do you manage people as part of your current occupation?,is_manager,Managerial responsibility,Text,Yes,Dim_Demographics_Employment
+Which of the following best describes your household?,household_type,Household composition,Text,Couple with children,Dim_Demographics_Employment
+How long have you been in your current job?,job_tenure,Time in current job,Text,2–5 years,Dim_Demographics_Employment
+Metro / Regional,region_type,Workplace region classification,Text,Metro,Dim_Demographics_Employment

@@ -1,0 +1,1 @@
+CREATE DATABASE remote_work_survey_2020;
